@@ -1,0 +1,28 @@
+.left-pdf-fay{
+    padding:20px;
+    float:left;
+    width:42%; /* The width is 42%, by default */
+}
+
+
+.right-pdf-fay{
+    background-color: #d3d3d3;
+    border-radius: 15px;
+    padding:20px;
+    float:left;
+    width:50%; /* The width is 50%, by default */
+    /*min-height: 418px;*/
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+    .left-pdf-fay, .right-pdf-fay{
+        width:100%;
+    }
+}
+#pdf-copy-generate{
+    margin-top: 27px;
+}
+.preview-btn-container{
+    text-align: center;
+}
